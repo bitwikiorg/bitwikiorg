@@ -12,7 +12,7 @@
 |---------|-------------|
 | [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | Peer-reviewed TeX journal. Volume 1 drafts: Evolution of Systems Science, Fundamental Equation of Ethical AI, Four-Layer Cognition Engine, Agentic AI via Genotype–Phenotype Signaling |
 | [Jupyter Notebook Templates](https://github.com/bitwikiorg/Jupyter_Notebooks) | Reusable analysis templates. |
-| [BITcore Research Terminal](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | Jekyll research terminal for deep-dive publications. |
+| [BITcore Research Terminal](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | BITcore Research Terminal Jekyll Github Page |
 
 
 ---
