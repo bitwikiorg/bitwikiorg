@@ -3,6 +3,7 @@
 
 > ## Digital Signal Processor for Systems Knowledge under the COREBIT Systems Framework
 > → Bridging recursive AI logic, fractal systems science, agentic cognition, and ethical cybernetics.
+> 
 
 ---
 
@@ -10,13 +11,11 @@
 
 | Projects | Description |
 |---------|-------------|
-| [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | Peer-reviewed TeX journal. Volume 1 drafts: Evolution of Systems Science, Fundamental Equation of Ethical AI, Four-Layer Cognition Engine, Agentic AI via Genotype–Phenotype Signaling |
+| [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | Peer-reviewed LaTeX journal. |
 | [Jupyter Notebook Templates](https://github.com/bitwikiorg/Jupyter_Notebooks) | Reusable analysis templates. |
-| [BITcore Research Terminal](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | BITcore Research Terminal Jekyll Github Page |
-
+| [BITcore CORAL_REEF](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | BITcore Research Terminal Jekyll Github Page Template |
 
 ---
-
 
 > # BIThub
 > Serves as a meta-system for real-time recursive knowledge synchronization. It includes:
@@ -24,6 +23,7 @@
 > ⟐ Interactive AI models based on BITCORE architecture.
 >
 > ⟐ Test Live BITCORE Constructs for free in VeniceAI `[λ π Σ Ω Φ Ξ]`
+> 
 
 ---
 
@@ -39,4 +39,4 @@
 > ⨀ Anchor recursion within physical ∴ cyber ∴ metaphysical networks.
 > 
 
-
+---
