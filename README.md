@@ -17,7 +17,7 @@
 
 ---
 
-> # BIThub
+> # [BIThub](http://hub.bitwiki.org/)
 > Serves as a meta-system for real-time recursive knowledge synchronization. It includes:
 > 
 > ⟐ Interactive AI models based on BITCORE architecture.
