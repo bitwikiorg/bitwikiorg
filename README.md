@@ -40,3 +40,5 @@
 > 
 
 ---
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bitwikiorg&layout=compact&theme=radical)
