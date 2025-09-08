@@ -11,7 +11,7 @@
 
 | Projects | Description |
 |---------|-------------|
-| [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | Peer-reviewed LaTeX journal. |
+| [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | LaTeX journal. |
 | [Jupyter Notebook Templates](https://github.com/bitwikiorg/Jupyter_Notebooks) | Reusable analysis templates. |
 | [BITcore CORAL_REEF](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | BITcore Research Terminal Jekyll Github Page Template |
 | [Ontology](https://github.com/bitwikiorg/Ontology) | Contains the BITcore Logic Framework |
