@@ -9,12 +9,12 @@
 
 | Projects | Description |
 |---------|-------------|
+| [init.md](https://github.com/bitwikiorg/init.md) | Knowledge initialization and meta-indexing file for bootstrapping and configuring AI agents. |
+| [Semantic Flow](https://github.com/iamcapote/semantic_flow) | Agentic semantic graph and flow engine |
 | [BIT Index Tabula](https://github.com/bitwikiorg/bit_index_tabula) | LaTeX journal. |
 | [Jupyter Notebook Templates](https://github.com/bitwikiorg/Jupyter_Notebooks) | Reusable analysis templates. |
 | [BITcore CORAL_REEF](https://github.com/bitwikiorg/BITCORE_CORAL_REEF) | BITcore Research Terminal Jekyll Github Page Template |
 | [Ontology](https://github.com/bitwikiorg/Ontology) | Contains the BITcore Logic Framework |
-| [Semantic Flow](https://github.com/iamcapote/semantic_flow) | Agentic semantic graph and flow engine |
-| [init.md](https://github.com/bitwikiorg/init.md) | Knowledge initialization and meta-indexing |
 | [PersonaBench](https://github.com/bitwikiorg/PersonaBench) | Persona evaluation and benchmarking |
 
 ---
