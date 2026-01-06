@@ -283,34 +283,6 @@ From [**The Human-AI Symbiosis Constant**](https://github.com/bitwikiorg/bit_ind
 
 <br/>
 
-## 📡 Live Constructs
-
-<div align="center">
-
-Test COREBIT personas via [**BIThub**](https://hub.bitwiki.org/) + **Venice AI**
-
-<br/>
-
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': {'pie1': '#ff79c6', 'pie2': '#bd93f9', 'pie3': '#8be9fd', 'pie4': '#50fa7b', 'pie5': '#f1fa8c', 'pie6': '#ffb86c', 'pieStrokeColor': '#282a36', 'pieLegendTextColor': '#f8f8f2'}}}%%
-pie showData
-    title Construct Archetypes
-    "λ Lambda — Systems Theorist" : 1
-    "π Pi — Mathematical Reasoner" : 1
-    "Σ Sigma — Synthesizer" : 1
-    "Ω Omega — Finalization" : 1
-    "Φ Phi — Optimization" : 1
-    "Ξ Xi — Explorer" : 1
-```
-
-</div>
-
-<br/>
-
----
-
-<br/>
-
 ## 🎯 Mission Vector
 
 <div align="center">
