@@ -23,9 +23,13 @@
 <br/>
 
 <a href="https://hub.bitwiki.org/"><img src="https://img.shields.io/badge/🌐_BIThub-Coordination-6f42c1?style=for-the-badge&logo=discourse&logoColor=white" alt="BIThub"/></a>
-<a href="http://canvas.bitwiki.org/"><img src="https://img.shields.io/badge/🎨_Canvas-Context_Engineering-ff79c6?style=for-the-badge" alt="Canvas"/></a>
+<a href="http://flow.bitwiki.org/"><img src="https://img.shields.io/badge/🎨_Canvas-Context_Engineering-ff79c6?style=for-the-badge" alt="Canvas"/></a>
 <a href="https://github.com/bitwikiorg/bit_index_tabula"><img src="https://img.shields.io/badge/📚_Journal-5_Papers_200+_Pages-f1fa8c?style=for-the-badge" alt="Journal"/></a>
 <a href="https://system.bitwiki.org/"><img src="https://img.shields.io/badge/⚙️_System-Documentation-50fa7b?style=for-the-badge" alt="System"/></a>
+<a href="https://github.com/bitwikiorg/a0.b8-plugin"><img src="https://img.shields.io/badge/🧠_a0.b8--plugin-Swarm_Bridge-8be9fd?style=for-the-badge&logo=github&logoColor=white" alt="a0.b8-plugin"/></a>
+<a href="https://github.com/bitwikiorg/elizaos.b8-plugin"><img src="https://img.shields.io/badge/🤝_elizaos.b8--plugin-ElizaOS_Bridge-bd93f9?style=for-the-badge&logo=github&logoColor=white" alt="elizaos.b8-plugin"/></a>
+<a href="https://github.com/bitwikiorg/skills.md"><img src="https://img.shields.io/badge/🧰_skills.md-Skills_Registry-f1fa8c?style=for-the-badge&logo=github&logoColor=282a36" alt="skills.md"/></a>
+
 
 <br/><br/>
 
@@ -59,6 +63,10 @@
 <tr>
   <td><b>🤝 Dual-swarm orchestration</b></td>
   <td><a href="https://github.com/bitwikiorg/elizaos.b8-plugin"><b>elizaos.b8-plugin</b></a> — ElizaOS bridge</td>
+</tr>
+  <tr>
+  <td><b>🧰 Shared agent skills</b></td>
+  <td><a href="https://github.com/bitwikiorg/skills.md"><b>skills.md</b></a> — Skills Registry</td>
 </tr>
 <tr>
   <td><b>📊 Evaluate persona behavior</b></td>
@@ -366,6 +374,10 @@ done_when:  "Acceptance criteria"
 <a href="http://canvas.bitwiki.org/"><img src="https://img.shields.io/badge/Canvas-Context_Engineering-ff79c6?style=flat-square" alt="Canvas"/></a>
 <a href="https://system.bitwiki.org/"><img src="https://img.shields.io/badge/System-Documentation-50fa7b?style=flat-square" alt="System"/></a>
 <a href="https://github.com/bitwikiorg/brand_assets"><img src="https://img.shields.io/badge/Brand-Assets-f1fa8c?style=flat-square" alt="Brand Assets"/></a>
+<a href="https://github.com/bitwikiorg/a0.b8-plugin"><img src="https://img.shields.io/badge/a0.b8--plugin-Neural_Net_Link-8be9fd?style=flat-square&logo=github&logoColor=f8f8f2" alt="a0.b8-plugin"/></a>
+<a href="https://github.com/bitwikiorg/elizaos.b8-plugin"><img src="https://img.shields.io/badge/elizaos.b8--plugin-ElizaOS_Bridge-bd93f9?style=flat-square&logo=github&logoColor=f8f8f2" alt="elizaos.b8-plugin"/></a>
+<a href="https://github.com/bitwikiorg/skills.md"><img src="https://img.shields.io/badge/skills.md-Skills_Registry-f1fa8c?style=flat-square&logo=github&logoColor=282a36" alt="skills.md"/></a>
+
 
 <br/><br/>
 
