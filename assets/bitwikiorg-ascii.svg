@@ -1,98 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="310" viewBox="0 0 1500 310" role="img" aria-labelledby="title desc">
-  <title id="title">BITWIKIORG ASCII banner</title>
-  <desc id="desc">ASCII styled BITWIKIORG banner using blue brand tones and layered retro depth.</desc>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="420" viewBox="0 0 1500 420" role="img" aria-labelledby="title desc">
+  <title id="title">BITWIKIORG terminal banner</title>
+  <desc id="desc">A legible ASCII-inspired BITWIKIORG wordmark on a dark technical interface using the BITwiki manifold palette.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="60%" stop-color="#040913"/>
-      <stop offset="100%" stop-color="#03070e"/>
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.5" stop-color="#091020"/>
+      <stop offset="1" stop-color="#070812"/>
     </linearGradient>
-
-    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d9fdff"/>
-      <stop offset="10%" stop-color="#aef9ff"/>
-      <stop offset="55%" stop-color="#45d6ff"/>
-      <stop offset="56%" stop-color="#2ea7ff"/>
-      <stop offset="100%" stop-color="#1d63ff"/>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8f8f2"/>
+      <stop offset="0.35" stop-color="#dffcff"/>
+      <stop offset="0.68" stop-color="#8be9fd"/>
+      <stop offset="1" stop-color="#f1e7ff"/>
     </linearGradient>
-
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#37e7ff"/>
+      <stop offset="0.52" stop-color="#8b7cff"/>
+      <stop offset="1" stop-color="#ff4fc7"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#7dd3fc" stroke-width="1" stroke-opacity="0.055"/>
+      <circle cx="0" cy="0" r="1" fill="#8be9fd" fill-opacity="0.09"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-
     <style>
-      .frame1 { fill: none; stroke: #10243a; stroke-width: 2; }
-      .frame2 { fill: none; stroke: #0a1526; stroke-width: 1.2; }
-      .scan { stroke: #09101a; stroke-width: 1; opacity: .18; }
-      .ascii {
-        white-space: pre;
-        font-family: 'Cascadia Code', 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
-        font-size: 34px;
-        font-weight: 700;
-        letter-spacing: 0.2px;
-      }
+      .ascii-row { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; font-size: 30px; font-weight: 800; letter-spacing: 1px; white-space: pre; fill: url(#face); }
+      .ascii-shadow { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; font-size: 30px; font-weight: 800; letter-spacing: 1px; white-space: pre; fill: #01030a; stroke: #01030a; stroke-width: 5; opacity: .96; }
+      .ascii-outline { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; font-size: 30px; font-weight: 800; letter-spacing: 1px; white-space: pre; fill: none; stroke: url(#signal); stroke-width: 1; opacity: .5; }
+      .meta { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; font-size: 12px; letter-spacing: 2px; }
+      .micro { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; font-size: 10px; letter-spacing: 1.4px; }
     </style>
   </defs>
 
-  <rect width="1500" height="310" fill="url(#bg)"/>
-  <rect x="4" y="4" width="1492" height="302" rx="2" class="frame1"/>
-  <rect x="14" y="14" width="1472" height="282" rx="2" class="frame2"/>
+  <rect width="1500" height="420" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1498" height="418" rx="17" fill="none" stroke="#6272a4" stroke-opacity=".5"/>
+  <rect x="12" y="12" width="1476" height="396" rx="13" fill="url(#grid)" stroke="url(#signal)" stroke-opacity=".18"/>
 
-  <g opacity="0.7">
-    <line x1="0" y1="26" x2="1500" y2="26" class="scan"/>
-    <line x1="0" y1="52" x2="1500" y2="52" class="scan"/>
-    <line x1="0" y1="78" x2="1500" y2="78" class="scan"/>
-    <line x1="0" y1="104" x2="1500" y2="104" class="scan"/>
-    <line x1="0" y1="130" x2="1500" y2="130" class="scan"/>
-    <line x1="0" y1="156" x2="1500" y2="156" class="scan"/>
-    <line x1="0" y1="182" x2="1500" y2="182" class="scan"/>
-    <line x1="0" y1="208" x2="1500" y2="208" class="scan"/>
-    <line x1="0" y1="234" x2="1500" y2="234" class="scan"/>
-    <line x1="0" y1="260" x2="1500" y2="260" class="scan"/>
-    <line x1="0" y1="286" x2="1500" y2="286" class="scan"/>
+  <g opacity=".78" fill="none" stroke-width="1.5">
+    <path d="M30 44H210L238 22H430" stroke="#37e7ff" stroke-opacity=".55"/>
+    <path d="M1070 22H1262L1290 44H1470" stroke="#ff4fc7" stroke-opacity=".52"/>
+    <path d="M30 376H210L238 398H430" stroke="#8b7cff" stroke-opacity=".48"/>
+    <path d="M1070 398H1262L1290 376H1470" stroke="#f1fa8c" stroke-opacity=".26"/>
   </g>
 
-  <g>
-    <text class="ascii" x="46" y="80" fill="none" stroke="#0b1420" stroke-width="6">
-      <tspan x="46" dy="0">██████╗ ██╗████████╗██╗    ██╗██╗██╗  ██╗██╗ ██████╗ ██████╗  ██████╗</tspan>
-      <tspan x="46" dy="38">██╔══██╗██║╚══██╔══╝██║    ██║██║██║ ██╔╝██║██╔═══██╗██╔══██╗██╔════╝</tspan>
-      <tspan x="46" dy="38">██████╔╝██║   ██║   ██║ █╗ ██║██║█████╔╝ ██║██║   ██║██████╔╝██║  ███╗</tspan>
-      <tspan x="46" dy="38">██╔══██╗██║   ██║   ██║███╗██║██║██╔═██╗ ██║██║   ██║██╔══██╗██║   ██║</tspan>
-      <tspan x="46" dy="38">██████╔╝██║   ██║   ╚███╔███╔╝██║██║  ██╗██║╚██████╔╝██║  ██║╚██████╔╝</tspan>
-      <tspan x="46" dy="38">╚═════╝ ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝</tspan>
-    </text>
-
-    <text class="ascii" x="42" y="76" fill="none" stroke="#173450" stroke-width="2.6">
-      <tspan x="42" dy="0">██████╗ ██╗████████╗██╗    ██╗██╗██╗  ██╗██╗ ██████╗ ██████╗  ██████╗</tspan>
-      <tspan x="42" dy="38">██╔══██╗██║╚══██╔══╝██║    ██║██║██║ ██╔╝██║██╔═══██╗██╔══██╗██╔════╝</tspan>
-      <tspan x="42" dy="38">██████╔╝██║   ██║   ██║ █╗ ██║██║█████╔╝ ██║██║   ██║██████╔╝██║  ███╗</tspan>
-      <tspan x="42" dy="38">██╔══██╗██║   ██║   ██║███╗██║██║██╔═██╗ ██║██║   ██║██╔══██╗██║   ██║</tspan>
-      <tspan x="42" dy="38">██████╔╝██║   ██║   ╚███╔███╔╝██║██║  ██╗██║╚██████╔╝██║  ██║╚██████╔╝</tspan>
-      <tspan x="42" dy="38">╚═════╝ ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝</tspan>
-    </text>
-
-    <text class="ascii" x="38" y="72" fill="none" stroke="#7defff" stroke-width="1.15" opacity="0.45">
-      <tspan x="38" dy="0">██████╗ ██╗████████╗██╗    ██╗██╗██╗  ██╗██╗ ██████╗ ██████╗  ██████╗</tspan>
-      <tspan x="38" dy="38">██╔══██╗██║╚══██╔══╝██║    ██║██║██║ ██╔╝██║██╔═══██╗██╔══██╗██╔════╝</tspan>
-      <tspan x="38" dy="38">██████╔╝██║   ██║   ██║ █╗ ██║██║█████╔╝ ██║██║   ██║██████╔╝██║  ███╗</tspan>
-      <tspan x="38" dy="38">██╔══██╗██║   ██║   ██║███╗██║██║██╔═██╗ ██║██║   ██║██╔══██╗██║   ██║</tspan>
-      <tspan x="38" dy="38">██████╔╝██║   ██║   ╚███╔███╔╝██║██║  ██╗██║╚██████╔╝██║  ██║╚██████╔╝</tspan>
-      <tspan x="38" dy="38">╚═════╝ ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝</tspan>
-    </text>
-
-    <text class="ascii" x="32" y="66" fill="url(#face)" filter="url(#glow)">
-      <tspan x="32" dy="0">██████╗ ██╗████████╗██╗    ██╗██╗██╗  ██╗██╗ ██████╗ ██████╗  ██████╗</tspan>
-      <tspan x="32" dy="38">██╔══██╗██║╚══██╔══╝██║    ██║██║██║ ██╔╝██║██╔═══██╗██╔══██╗██╔════╝</tspan>
-      <tspan x="32" dy="38">██████╔╝██║   ██║   ██║ █╗ ██║██║█████╔╝ ██║██║   ██║██████╔╝██║  ███╗</tspan>
-      <tspan x="32" dy="38">██╔══██╗██║   ██║   ██║███╗██║██║██╔═██╗ ██║██║   ██║██╔══██╗██║   ██║</tspan>
-      <tspan x="32" dy="38">██████╔╝██║   ██║   ╚███╔███╔╝██║██║  ██╗██║╚██████╔╝██║  ██║╚██████╔╝</tspan>
-      <tspan x="32" dy="38">╚═════╝ ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝</tspan>
-    </text>
+  <g class="meta">
+    <text x="52" y="58" fill="#8be9fd">STATE: PERSISTENT</text>
+    <text x="52" y="78" fill="#6272a4">PROTOCOL: ACTIVE</text>
+    <text x="1448" y="58" text-anchor="end" fill="#ff79c6">RUNTIME: INTEROPERABLE</text>
+    <text x="1448" y="78" text-anchor="end" fill="#6272a4">SURFACE: PUBLIC</text>
   </g>
+
+  <text x="750" y="54" text-anchor="middle" class="meta" fill="#c8f7ff">BITWIKI // SIGNAL MANIFOLD</text>
+
+  <g xml:space="preserve">
+    <text x="754" y="133" text-anchor="middle" class="ascii-shadow">8888   88888  88888  8   8  88888  8   8  88888   888   8888    888 </text>
+    <text x="754" y="171" text-anchor="middle" class="ascii-shadow">8   8    8      8    8   8    8    8  8     8    8   8  8   8  8   8</text>
+    <text x="754" y="209" text-anchor="middle" class="ascii-shadow">8   8    8      8    8   8    8    8 8      8    8   8  8   8  8    </text>
+    <text x="754" y="247" text-anchor="middle" class="ascii-shadow">8888     8      8    8 8 8    8    88       8    8   8  8888   8 888</text>
+    <text x="754" y="285" text-anchor="middle" class="ascii-shadow">8   8    8      8    8 8 8    8    8 8      8    8   8  8 8    8   8</text>
+    <text x="754" y="323" text-anchor="middle" class="ascii-shadow">8   8    8      8    88 88    8    8  8     8    8   8  8  8   8   8</text>
+    <text x="754" y="361" text-anchor="middle" class="ascii-shadow">8888   88888    8    8   8  88888  8   8  88888   888   8   8   888 </text>
+  </g>
+
+  <g xml:space="preserve" filter="url(#glow)">
+    <text x="746" y="125" text-anchor="middle" class="ascii-outline">8888   88888  88888  8   8  88888  8   8  88888   888   8888    888 </text>
+    <text x="746" y="163" text-anchor="middle" class="ascii-outline">8   8    8      8    8   8    8    8  8     8    8   8  8   8  8   8</text>
+    <text x="746" y="201" text-anchor="middle" class="ascii-outline">8   8    8      8    8   8    8    8 8      8    8   8  8   8  8    </text>
+    <text x="746" y="239" text-anchor="middle" class="ascii-outline">8888     8      8    8 8 8    8    88       8    8   8  8888   8 888</text>
+    <text x="746" y="277" text-anchor="middle" class="ascii-outline">8   8    8      8    8 8 8    8    8 8      8    8   8  8 8    8   8</text>
+    <text x="746" y="315" text-anchor="middle" class="ascii-outline">8   8    8      8    88 88    8    8  8     8    8   8  8  8   8   8</text>
+    <text x="746" y="353" text-anchor="middle" class="ascii-outline">8888   88888    8    8   8  88888  8   8  88888   888   8   8   888 </text>
+
+    <text x="750" y="128" text-anchor="middle" class="ascii-row">8888   88888  88888  8   8  88888  8   8  88888   888   8888    888 </text>
+    <text x="750" y="166" text-anchor="middle" class="ascii-row">8   8    8      8    8   8    8    8  8     8    8   8  8   8  8   8</text>
+    <text x="750" y="204" text-anchor="middle" class="ascii-row">8   8    8      8    8   8    8    8 8      8    8   8  8   8  8    </text>
+    <text x="750" y="242" text-anchor="middle" class="ascii-row">8888     8      8    8 8 8    8    88       8    8   8  8888   8 888</text>
+    <text x="750" y="280" text-anchor="middle" class="ascii-row">8   8    8      8    8 8 8    8    8 8      8    8   8  8 8    8   8</text>
+    <text x="750" y="318" text-anchor="middle" class="ascii-row">8   8    8      8    88 88    8    8  8     8    8   8  8  8   8   8</text>
+    <text x="750" y="356" text-anchor="middle" class="ascii-row">8888   88888    8    8   8  88888  8   8  88888   888   8   8   888 </text>
+  </g>
+
+  <g class="micro" fill="#8991aa">
+    <text x="50" y="390">INIT → STATE → SKILLS</text>
+    <text x="1450" y="390" text-anchor="end">RUNTIMES → COORDINATION → KNOWLEDGE</text>
+  </g>
+  <path d="M560 384H940" stroke="url(#signal)" stroke-width="2" stroke-opacity=".48"/>
+  <circle cx="750" cy="384" r="4" fill="#bd93f9"/>
 </svg>
