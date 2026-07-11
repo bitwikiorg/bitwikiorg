@@ -1,236 +1,186 @@
 <!--
-  ░▒▓█ BITWIKI SIGNAL MANIFOLD █▓▒░
-  Public profile for the active BITwiki ecosystem
-  Intentionally selective: current source signals only
+  BITWIKI / PUBLIC ECOSYSTEM PROFILE
+  Current work only. Historical and absorbed repositories remain discoverable
+  through the repository index without competing with the primary entry points.
 -->
 
 <a id="top"></a>
 
 <div align="center">
 
-```text
-██████╗ ██╗████████╗██╗    ██╗██╗██╗  ██╗██╗    ██████╗ ██████╗  ██████╗
-██╔══██╗██║╚══██╔══╝██║    ██║██║██║ ██╔╝██║   ██╔═══██╗██╔══██╗██╔════╝
-██████╔╝██║   ██║   ██║ █╗ ██║██║█████╔╝ ██║   ██║   ██║██████╔╝██║  ███╗
-██╔══██╗██║   ██║   ██║███╗██║██║██╔═██╗ ██║   ██║   ██║██╔══██╗██║   ██║
-██████╔╝██║   ██║   ╚███╔███╔╝██║██║  ██╗██║   ╚██████╔╝██║  ██║╚██████╔╝
-╚═════╝ ╚═╝   ╚═╝    ╚══╝╚══╝ ╚═╝╚═╝  ╚═╝╚═╝    ╚═════╝ ╚═╝  ╚═╝ ╚═════╝
-```
+<img src="assets/bitwikiorg-ascii.svg" alt="BITWIKIORG ASCII-styled wordmark" width="100%">
 
-<h3><code>░▒▓ PERSISTENT AGENT SYSTEMS · PUBLIC SIGNAL MANIFOLD ▓▒░</code></h3>
+# BITwiki
 
-<p><b>Open infrastructure and research for persistent, interoperable AI agents.</b></p>
-
-<p>
-  Persistent state · Initialization protocols · Runtime interoperability · Reusable capabilities
-</p>
+**Open infrastructure and research for AI agents that need to preserve state, initialize deliberately, reuse capabilities, and work across runtimes.**
 
 <br/>
 
 <a href="https://bitwiki.org/">
-  <img src="https://img.shields.io/badge/BITwiki-Knowledge-282a36?style=for-the-badge&logo=wikipedia&logoColor=white" alt="BITwiki">
+  <img src="https://img.shields.io/badge/BITwiki-Read%20knowledge-282a36?style=for-the-badge&logo=wikipedia&logoColor=white" alt="Open BITwiki">
 </a>
 <a href="https://hub.bitwiki.org/">
-  <img src="https://img.shields.io/badge/BIThub-Coordination-6f42c1?style=for-the-badge&logo=discourse&logoColor=white" alt="BIThub">
+  <img src="https://img.shields.io/badge/BIThub-Coordinate%20work-6f42c1?style=for-the-badge&logo=discourse&logoColor=white" alt="Open BIThub">
 </a>
-<a href="https://bitwikiorg.github.io/bit_index_tabula/">
-  <img src="https://img.shields.io/badge/Research-BIT%20Index%20Tabula-f1fa8c?style=for-the-badge&logo=readthedocs&logoColor=282a36" alt="BIT Index Tabula">
+<a href="https://www.youtube.com/watch?v=I_JRB1DvdRA">
+  <img src="https://img.shields.io/badge/Showcase-Watch%20video-ff0033?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the BITwiki showcase">
 </a>
 <a href="https://github.com/bitwikiorg?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-Explore-0f766e?style=for-the-badge&logo=github&logoColor=white" alt="Repositories">
+  <img src="https://img.shields.io/badge/GitHub-Browse%20repositories-111827?style=for-the-badge&logo=github&logoColor=white" alt="Browse repositories">
 </a>
 
 <br/><br/>
 
-[**Continuity**](https://github.com/bitwikiorg/continuity) ·
-[**init.md**](https://github.com/bitwikiorg/init.md) ·
-[**agent.b8-plugin**](https://github.com/bitwikiorg/agent.b8-plugin) ·
-[**skills.md**](https://github.com/bitwikiorg/skills.md)
+[**Persist an agent**](#persist) ·
+[**Initialize a target**](#initialize) ·
+[**Connect a runtime**](#interoperate) ·
+[**Add capabilities**](#capabilities) ·
+[**Explore the ecosystem**](#public-surfaces)
 
 <br/>
 
-<b><code>[ λ · π · Σ · Ω · Φ · Ξ ]</code></b>
-<br/>
-<sub>The runtime ends. State survives. Knowledge compounds.</sub>
-
-<br/><br/>
-
-<img src="assets/bitwiki-manifold.svg" alt="BITwiki signal manifold representing persistent state, initialization, capabilities, runtime interoperability, coordination, and knowledge" width="100%">
+<sub>The runtime ends. State survives. Work resumes. Knowledge compounds.</sub>
 
 </div>
 
 ---
 
-<details>
-<summary><b>◉ Navigate the manifold</b></summary>
+## What BITwiki is
 
-1. [The core signal](#the-core-signal)
-2. [Enter by intent](#enter-by-intent)
-3. [Current work](#current-work)
-4. [System topology](#system-topology)
-5. [Runtime convergence](#runtime-convergence)
-6. [Public surfaces](#public-surfaces)
-7. [Operating invariants](#operating-invariants)
-8. [Selective by design](#selective-by-design)
+BITwiki is a work-in-progress research and engineering ecosystem for persistent and interoperable agent systems.
 
-</details>
+The active work addresses four concrete problems:
 
----
-
-## The core signal
-
-BITwiki is a work-in-progress research and engineering ecosystem for AI agents that need continuity across sessions, deliberate initialization, reusable capabilities, and interoperability across runtimes.
-
-The public profile is intentionally selective. It routes visitors toward the work that currently carries the strongest signal instead of presenting every repository as an equal part of one finished stack.
+- agents lose identity, memory, context, and unfinished work when a session ends;
+- projects and agents are often initialized without first inspecting what already exists;
+- useful capabilities are repeatedly rebuilt instead of being packaged as inspectable skills;
+- agent runtimes remain isolated from shared coordination and knowledge surfaces.
 
 > [!NOTE]
-> The ecosystem is under active construction. Repository boundaries, interfaces, terminology, and deployment surfaces may change as experimental work converges.
+> The ecosystem is under active construction. Repository boundaries, interfaces, and terminology may change as the work converges.
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
 
-## Enter by intent
+## Current showcase
 
-<table>
-<tr>
-<td width="25%" valign="top">
+<div align="center">
 
-### Persist
-
-Preserve identity, memory, context, plans, knowledge, and operational state across sessions.
+<a href="https://www.youtube.com/watch?v=I_JRB1DvdRA">
+  <img src="https://i.ytimg.com/vi/I_JRB1DvdRA/hqdefault.jpg" alt="Watch the current BITwiki ecosystem showcase on YouTube" width="720">
+</a>
 
 <br/>
 
-<a href="https://bitwikiorg.github.io/continuity/"><b>Open Continuity →</b></a>
+<a href="https://www.youtube.com/watch?v=I_JRB1DvdRA"><b>▶ Watch the current ecosystem showcase</b></a>
 
-</td>
-<td width="25%" valign="top">
+</div>
 
-### Initialize
-
-Inspect a target, determine what it needs, apply what fits, validate the result, and declare operational state.
-
-<br/>
-
-<a href="https://bitwikiorg.github.io/init.md/"><b>Open init.md →</b></a>
-
-</td>
-<td width="25%" valign="top">
-
-### Interoperate
-
-Connect supported agent runtimes to BIThub through runtime-native integration packages.
-
-<br/>
-
-<a href="https://github.com/bitwikiorg/agent.b8-plugin"><b>Open agent.b8-plugin →</b></a>
-
-</td>
-<td width="25%" valign="top">
-
-### Extend
-
-Discover, inspect, validate, and reuse agent capabilities through a shared skills registry.
-
-<br/>
-
-<a href="https://bitwikiorg.github.io/skills.md/"><b>Open skills.md →</b></a>
-
-</td>
-</tr>
-</table>
+<!-- GitHub README rendering removes iframe embeds, so the video uses a linked preview. -->
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
 
-## Current work
+## Start with the problem you have
 
-<table>
-<tr>
-<td width="50%" valign="top">
+> [!TIP]
+> Each project can be used independently. Start with the problem in front of you rather than installing the entire ecosystem.
 
-### <a href="https://github.com/bitwikiorg/continuity">Continuity</a>
+<a id="persist"></a>
 
-**Persistent, file-based state architecture for AI agents.**
+### 01 · Your agent must remember and resume its work
 
-Externalizes identity, memory, context, plans, knowledge, and operational state so an agent can reconstitute itself across sessions.
+## Use [Continuity](https://github.com/bitwikiorg/continuity)
 
-<br/>
+Continuity externalizes agent identity, memory, context, plans, knowledge, tasks, and operational state into files that survive session boundaries. Use it when an agent must wake up, reconstruct its working state, and continue rather than restart from zero.
 
 <a href="https://bitwikiorg.github.io/continuity/">
-  <img src="https://img.shields.io/badge/Website-Open-111827?style=flat-square&logo=githubpages&logoColor=white" alt="Continuity website">
+  <img src="https://img.shields.io/badge/Website-Open%20Continuity-0f766e?style=flat-square&logo=githubpages&logoColor=white" alt="Open the Continuity website">
 </a>
 <a href="https://github.com/bitwikiorg/continuity">
-  <img src="https://img.shields.io/badge/Source-GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="Continuity source">
+  <img src="https://img.shields.io/badge/Source-View%20repository-111827?style=flat-square&logo=github&logoColor=white" alt="View the Continuity repository">
+</a>
+<a href="https://github.com/bitwikiorg/continuity/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" alt="Continuity is licensed under MIT">
 </a>
 
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/bitwikiorg/init.md">init.md</a>
-
-**A standalone, target-neutral operational initialization protocol.**
-
-Inspects what exists, determines what is required, creates and configures what applies, validates the result, and reports what became operational.
-
 <br/>
+
+<a id="initialize"></a>
+
+### 02 · You need to initialize a target without guessing
+
+## Use [init.md](https://github.com/bitwikiorg/init.md)
+
+`init.md` is a standalone protocol for inspecting a target, determining what it needs, creating and configuring only what applies, validating the result, and reporting what became operational. It can initialize agents, projects, services, servers, and workspaces. Continuity also uses initialization during boot and reconstitution.
 
 <a href="https://bitwikiorg.github.io/init.md/">
-  <img src="https://img.shields.io/badge/Website-Open-111827?style=flat-square&logo=githubpages&logoColor=white" alt="init.md website">
+  <img src="https://img.shields.io/badge/Website-Open%20init.md-0f766e?style=flat-square&logo=githubpages&logoColor=white" alt="Open the init.md website">
 </a>
 <a href="https://github.com/bitwikiorg/init.md">
-  <img src="https://img.shields.io/badge/Source-GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="init.md source">
+  <img src="https://img.shields.io/badge/Source-View%20repository-111827?style=flat-square&logo=github&logoColor=white" alt="View the init.md repository">
+</a>
+<a href="https://github.com/bitwikiorg/init.md/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" alt="init.md is licensed under MIT">
 </a>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/bitwikiorg/agent.b8-plugin">agent.b8-plugin</a>
-
-**Canonical BIThub runtime integration repository.**
-
-Contains host-specific implementations for Hermes, Agent Zero, ElizaOS, and OpenClaw. Install only the directory matching the target runtime.
-
 <br/>
+
+<a id="interoperate"></a>
+
+### 03 · You need one integration for your agent runtime
+
+## Use [agent.b8-plugin](https://github.com/bitwikiorg/agent.b8-plugin)
+
+`agent.b8-plugin` is the canonical repository for connecting supported agent runtimes to BIThub. Select only the runtime-specific directory that matches the host.
+
+<p>
+  <kbd>Hermes</kbd>
+  <kbd>Agent Zero</kbd>
+  <kbd>ElizaOS</kbd>
+  <kbd>OpenClaw</kbd>
+</p>
 
 <a href="https://github.com/bitwikiorg/agent.b8-plugin">
-  <img src="https://img.shields.io/badge/Source-GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="agent.b8-plugin source">
+  <img src="https://img.shields.io/badge/Source-Choose%20your%20runtime-111827?style=flat-square&logo=github&logoColor=white" alt="Choose a runtime integration">
 </a>
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://github.com/bitwikiorg/skills.md">skills.md</a>
-
-**Registry and tooling for reusable, inspectable agent skills.**
-
-Organizes capability definitions, schemas, sources, verification data, utility scripts, and a browsable public registry.
+<a href="https://github.com/bitwikiorg/agent.b8-plugin/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-GPL--3.0-2563eb?style=flat-square" alt="agent.b8-plugin is licensed under GPL 3.0">
+</a>
 
 <br/>
 
+<a id="capabilities"></a>
+
+### 04 · You need capabilities that can be inspected and reused
+
+## Use [skills.md](https://github.com/bitwikiorg/skills.md)
+
+`skills.md` organizes reusable agent capabilities as inspectable definitions with sources, schemas, verification data, and supporting scripts. Use the public registry to discover capabilities and the repository to inspect how they are represented.
+
 <a href="https://bitwikiorg.github.io/skills.md/">
-  <img src="https://img.shields.io/badge/Registry-Open-111827?style=flat-square&logo=githubpages&logoColor=white" alt="Skills registry">
+  <img src="https://img.shields.io/badge/Registry-Browse%20skills-d97706?style=flat-square&logo=githubpages&logoColor=white" alt="Browse the skills registry">
 </a>
 <a href="https://github.com/bitwikiorg/skills.md">
-  <img src="https://img.shields.io/badge/Source-GitHub-111827?style=flat-square&logo=github&logoColor=white" alt="skills.md source">
+  <img src="https://img.shields.io/badge/Source-View%20repository-111827?style=flat-square&logo=github&logoColor=white" alt="View the skills.md repository">
 </a>
-
-</td>
-</tr>
-</table>
-
-> [!IMPORTANT]
-> `init.md` remains independently useful for projects, services, agents, servers, workspaces, and other operational targets. Continuity also incorporates initialization into its boot and reconstitution process.
+<a href="https://github.com/bitwikiorg/skills.md/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-22c55e?style=flat-square" alt="skills.md is licensed under MIT">
+</a>
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
 
-## System topology
+<div align="center">
+
+<img src="assets/bitwiki-manifold.svg" alt="Abstract BITwiki signal manifold" width="100%">
+
+</div>
+
+## How the active work connects
 
 ```mermaid
 %%{init: {
@@ -244,56 +194,53 @@ Organizes capability definitions, schemas, sources, verification data, utility s
     "lineColor": "#64748b",
     "secondaryColor": "#0f172a",
     "tertiaryColor": "#111827",
-    "clusterBkg": "#0b1220",
+    "clusterBkg": "#080d16",
     "clusterBorder": "#334155",
     "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
   }
 }}%%
 flowchart TB
-    subgraph ACTIVE["◉ ACTIVE SIGNAL MANIFOLD"]
-        direction LR
-        INIT["<b>init.md</b><br/><small>inspect · initialize · validate · declare</small>"]
-        CONT["<b>Continuity</b><br/><small>state · identity · memory · reconstitution</small>"]
-        SKILLS["<b>skills.md</b><br/><small>reusable capabilities</small>"]
-        PLUGIN["<b>agent.b8-plugin</b><br/><small>runtime interoperability</small>"]
-    end
+    INIT["<b>init.md</b><br/>Initialize and validate a target"]
+    CONT["<b>Continuity</b><br/>Persist agent state across sessions"]
+    SKILLS["<b>skills.md</b><br/>Package and discover reusable capabilities"]
+    PLUGIN["<b>agent.b8-plugin</b><br/>Connect supported runtimes to BIThub"]
 
-    HUB(("<b>BIThub</b><br/><small>coordinate · experiment · exchange</small>"))
-    TAB(("<b>BIT Index Tabula</b><br/><small>research · manuscripts · sources</small>"))
-    WIKI(("<b>BITwiki</b><br/><small>durable knowledge</small>"))
+    RUNTIME["Agent runtime"]
+    ARTIFACTS["Persistent files and artifacts"]
+    HUB(("<b>BIThub</b><br/>Coordinate experiments and shared work"))
+    TAB["<b>BIT Index Tabula</b><br/>Publish research and source materials"]
+    WIKI["<b>BITwiki</b><br/>Preserve durable knowledge"]
 
-    INIT --> CONT
-    CONT --> SKILLS
-    SKILLS --> PLUGIN
+    INIT -. "used during boot" .-> CONT
+    CONT --> ARTIFACTS
+    SKILLS --> RUNTIME
+    RUNTIME --> PLUGIN
     PLUGIN --> HUB
+    ARTIFACTS --> HUB
     HUB --> TAB
     HUB --> WIKI
     TAB --> WIKI
-    WIKI -. compounds context .-> CONT
+    WIKI -. "returns durable context" .-> CONT
 
-    classDef init fill:#0f172a,stroke:#67e8f9,stroke-width:2px,color:#f8fafc;
-    classDef state fill:#17152b,stroke:#a78bfa,stroke-width:2px,color:#f8fafc;
-    classDef capability fill:#1c1a0d,stroke:#facc15,stroke-width:2px,color:#f8fafc;
-    classDef runtime fill:#0d1f1a,stroke:#34d399,stroke-width:2px,color:#f8fafc;
-    classDef surface fill:#111827,stroke:#64748b,stroke-width:2px,color:#f8fafc;
-    classDef primary fill:#1e1b4b,stroke:#8b5cf6,stroke-width:3px,color:#ffffff;
+    classDef init fill:#0d2230,stroke:#67e8f9,stroke-width:2px,color:#f8fafc;
+    classDef state fill:#1d1635,stroke:#a78bfa,stroke-width:2px,color:#f8fafc;
+    classDef capability fill:#2b230b,stroke:#facc15,stroke-width:2px,color:#f8fafc;
+    classDef runtime fill:#0d241c,stroke:#34d399,stroke-width:2px,color:#f8fafc;
+    classDef neutral fill:#111827,stroke:#64748b,stroke-width:2px,color:#f8fafc;
+    classDef primary fill:#23194f,stroke:#8b5cf6,stroke-width:3px,color:#ffffff;
 
     class INIT init;
     class CONT state;
     class SKILLS capability;
-    class PLUGIN runtime;
-    class TAB,WIKI surface;
+    class PLUGIN,RUNTIME runtime;
+    class ARTIFACTS,TAB,WIKI neutral;
     class HUB primary;
 ```
 
-> [!TIP]
-> This is a convergence map, not a requirement that every component be installed together. Each project remains useful independently while participating in a broader direction.
+> [!IMPORTANT]
+> The diagram shows relationships, not a mandatory installation order. `init.md`, Continuity, `skills.md`, and `agent.b8-plugin` remain independently useful.
 
-<p align="right"><a href="#top">↑ Back to top</a></p>
-
----
-
-## Runtime convergence
+### Runtime convergence
 
 ```mermaid
 %%{init: {
@@ -310,24 +257,25 @@ flowchart TB
     "fontFamily": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
   }
 }}%%
-flowchart LR
-    H["Hermes"] --> B8["<b>agent.b8-plugin</b><br/><small>canonical convergence layer</small>"]
-    A0["Agent Zero"] --> B8
-    EL["ElizaOS"] --> B8
-    OC["OpenClaw"] --> B8
-    B8 --> HUB(("<b>BIThub</b><br/><small>shared coordination surface</small>"))
+flowchart TB
+    H["Hermes"]
+    A["Agent Zero"]
+    E["ElizaOS"]
+    O["OpenClaw"]
+    B8["<b>agent.b8-plugin</b><br/>Select one runtime-specific directory"]
+    HUB(("<b>BIThub</b><br/>Shared coordination surface"))
 
-    classDef hermes fill:#0f172a,stroke:#22d3ee,stroke-width:2px,color:#f8fafc;
-    classDef a0 fill:#17152b,stroke:#a78bfa,stroke-width:2px,color:#f8fafc;
-    classDef eliza fill:#241421,stroke:#f472b6,stroke-width:2px,color:#f8fafc;
-    classDef claw fill:#0d1f1a,stroke:#34d399,stroke-width:2px,color:#f8fafc;
-    classDef bridge fill:#1c1a0d,stroke:#facc15,stroke-width:3px,color:#f8fafc;
-    classDef hub fill:#1e1b4b,stroke:#8b5cf6,stroke-width:3px,color:#ffffff;
+    H --> B8
+    A --> B8
+    E --> B8
+    O --> B8
+    B8 --> HUB
 
-    class H hermes;
-    class A0 a0;
-    class EL eliza;
-    class OC claw;
+    classDef host fill:#0f172a,stroke:#22d3ee,stroke-width:2px,color:#f8fafc;
+    classDef bridge fill:#24200b,stroke:#facc15,stroke-width:3px,color:#f8fafc;
+    classDef hub fill:#23194f,stroke:#8b5cf6,stroke-width:3px,color:#ffffff;
+
+    class H,A,E,O host;
     class B8 bridge;
     class HUB hub;
 ```
@@ -336,118 +284,71 @@ flowchart LR
 
 ---
 
-## Public surfaces
+<a id="public-surfaces"></a>
 
-<table>
-<tr>
-<td width="33%" valign="top">
+## Explore the ecosystem
 
-### <a href="https://bitwiki.org">BITwiki</a>
+### [BITwiki](https://bitwiki.org) · Read durable knowledge
 
-**Durable knowledge.**
+Use BITwiki to browse evolving knowledge, references, and research context intended to persist beyond individual conversations and experiments.
 
-References, evolving research context, and knowledge intended to survive beyond a single workflow or conversation.
-
-<br/>
-
-<a href="https://bitwiki.org"><b>Enter BITwiki →</b></a>
-
-</td>
-<td width="33%" valign="top">
-
-### <a href="https://hub.bitwiki.org">BIThub</a>
-
-**Coordination and shared work.**
-
-Experiments, workflows, artifacts, constructs, workspaces, and community interaction.
+<a href="https://bitwiki.org/">
+  <img src="https://img.shields.io/badge/Open-BITwiki-282a36?style=flat-square&logo=wikipedia&logoColor=white" alt="Open BITwiki">
+</a>
 
 <br/>
 
-<a href="https://hub.bitwiki.org"><b>Enter BIThub →</b></a>
+### [BIThub](https://hub.bitwiki.org) · Coordinate and experiment
 
-</td>
-<td width="33%" valign="top">
+Use BIThub for workflows, artifacts, shared work, agent experiments, discussions, and coordination across the ecosystem.
 
-### <a href="https://bitwikiorg.github.io/bit_index_tabula/">BIT Index Tabula</a>
-
-**Research publication surface.**
-
-Systems research, manuscripts, source materials, and works in progress.
+<a href="https://hub.bitwiki.org/">
+  <img src="https://img.shields.io/badge/Open-BIThub-6f42c1?style=flat-square&logo=discourse&logoColor=white" alt="Open BIThub">
+</a>
 
 <br/>
 
-<a href="https://bitwikiorg.github.io/bit_index_tabula/"><b>Open research →</b></a>
+### [BIT Index Tabula](https://bitwikiorg.github.io/bit_index_tabula/) · Inspect research in progress
 
-</td>
-</tr>
-</table>
+Use BIT Index Tabula to read systems research, manuscripts, source materials, and draft publications while the research layer continues to develop.
+
+<a href="https://bitwikiorg.github.io/bit_index_tabula/">
+  <img src="https://img.shields.io/badge/Website-Open%20research-d97706?style=flat-square&logo=githubpages&logoColor=white" alt="Open BIT Index Tabula">
+</a>
+<a href="https://github.com/bitwikiorg/bit_index_tabula">
+  <img src="https://img.shields.io/badge/Source-View%20repository-111827?style=flat-square&logo=github&logoColor=white" alt="View the BIT Index Tabula repository">
+</a>
+<a href="https://github.com/bitwikiorg/bit_index_tabula/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-CC%20BY%204.0-f59e0b?style=flat-square" alt="BIT Index Tabula is licensed under CC BY 4.0">
+</a>
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
 
-## Operating invariants
+## Repository licenses
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Licensing is defined per repository rather than by one ecosystem-wide license.
 
-### State over session
+- [**Continuity**](https://github.com/bitwikiorg/continuity/blob/main/LICENSE): MIT
+- [**init.md**](https://github.com/bitwikiorg/init.md/blob/main/LICENSE): MIT
+- [**agent.b8-plugin**](https://github.com/bitwikiorg/agent.b8-plugin/blob/main/LICENSE): GNU GPL v3
+- [**skills.md**](https://github.com/bitwikiorg/skills.md/blob/main/LICENSE): MIT
+- [**BIT Index Tabula**](https://github.com/bitwikiorg/bit_index_tabula/blob/main/LICENSE): Creative Commons Attribution 4.0 International
 
-Important identity, context, memory, and work should survive the context window.
-
-### Inspection before mutation
-
-Understand the target before creating, replacing, or configuring anything.
-
-### Protocols over isolated prompts
-
-Repeatable procedures should remain inspectable, adaptable, and testable.
-
-</td>
-<td width="50%" valign="top">
-
-### Interoperability over lock-in
-
-State and capabilities should not depend unnecessarily on one runtime.
-
-### Artifacts over ephemeral chat
-
-Useful outputs should become durable, reviewable objects that can compound.
-
-### Selectivity over noise
-
-The profile should expose current source signals, not flatten every repository into one undifferentiated catalog.
-
-</td>
-</tr>
-</table>
+Always consult the license inside the specific repository before reuse or redistribution.
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
 ---
 
-## Selective by design
+## Operating principles
 
-<details>
-<summary><b>Why many repositories are not presented here</b></summary>
-
-<br/>
-
-This profile intentionally omits absorbed, superseded, archaeological, archival, and provisional repositories from the primary narrative.
-
-Those repositories may still retain historical, experimental, or reference value. They do not belong in the main public funnel merely because they remain visible in the account.
-
-The profile is designed to answer six questions quickly:
-
-1. What is BITwiki?
-2. What work currently carries the strongest signal?
-3. Where should a visitor begin?
-4. How do the active components relate?
-5. Where does coordination occur?
-6. Where does knowledge persist?
-
-</details>
+- **State over session:** identity, context, memory, and unfinished work should survive runtime boundaries.
+- **Inspection before mutation:** understand a target before creating, replacing, or configuring anything.
+- **Protocols over isolated prompts:** repeatable procedures should remain inspectable, adaptable, and testable.
+- **Interoperability over lock-in:** useful state and capabilities should not depend unnecessarily on one runtime.
+- **Artifacts over ephemeral chat:** valuable outputs should become durable, reviewable objects that can compound.
 
 <p align="right"><a href="#top">↑ Back to top</a></p>
 
@@ -455,26 +356,17 @@ The profile is designed to answer six questions quickly:
 
 <div align="center">
 
-<b><code>INITIALIZE → PERSIST → EXTEND → INTEROPERATE → COORDINATE → PUBLISH → COMPOUND</code></b>
+### Continue into the system
 
-<br/><br/>
-
-<a href="https://bitwiki.org/">
-  <img src="https://img.shields.io/badge/BITwiki-Knowledge-282a36?style=flat-square&logo=wikipedia&logoColor=white" alt="BITwiki">
-</a>
-<a href="https://hub.bitwiki.org/">
-  <img src="https://img.shields.io/badge/BIThub-Coordination-6f42c1?style=flat-square&logo=discourse&logoColor=white" alt="BIThub">
-</a>
-<a href="https://bitwikiorg.github.io/bit_index_tabula/">
-  <img src="https://img.shields.io/badge/BIT%20Index%20Tabula-Research-f1fa8c?style=flat-square&logo=readthedocs&logoColor=282a36" alt="BIT Index Tabula">
-</a>
-
-<br/><br/>
-
-<sub><b>Recursive systems · Persistent cognition · Shared knowledge</b></sub>
+[**Persist an agent**](https://bitwikiorg.github.io/continuity/) ·
+[**Initialize a target**](https://bitwikiorg.github.io/init.md/) ·
+[**Connect a runtime**](https://github.com/bitwikiorg/agent.b8-plugin) ·
+[**Browse skills**](https://bitwikiorg.github.io/skills.md/) ·
+[**Enter BIThub**](https://hub.bitwiki.org/) ·
+[**Read BITwiki**](https://bitwiki.org/)
 
 <br/>
 
-<sub><code>░▒▓█ λ · π · Σ · Ω · Φ · Ξ █▓▒░</code></sub>
+<sub><b>Recursive systems · Persistent cognition · Shared knowledge</b></sub>
 
 </div>
